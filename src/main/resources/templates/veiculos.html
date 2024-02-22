@@ -25,7 +25,14 @@
                 <th>Tipo</th>
                 <th>Disponivel</th>
             </tr>
-
+            <tr th:each = "veiculo : ${lista_veiculos}">
+                <td th:utext="${veiculo.id}"></td>
+                <td th:utext="${veiculo.placa}"></td>
+                <td th:utext="${veiculo.marca}"></td>
+                <td th:utext="${veiculo.modelo}"></td>
+                <td th:utext="${veiculo.tipo}"></td>
+                <td th:utext="${veiculo.disponivel}"></td>
+            </tr>
         </table>
 
     </div>
