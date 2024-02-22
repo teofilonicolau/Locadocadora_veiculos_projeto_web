@@ -8,11 +8,11 @@
     <form th:action="@{/veiculo/add}"
           th:object="${veiculo}" th:method="POST">
         <div class="container">
-            <h1 th:text="Cadastrar Veículo"></h1>
+            <h1>Cadastrar Veiculo</h1>
             <div th:if="${veiculo.id}" class="mb-3 row">
                 <label for="inputId" class="col-sm-2 col-form-label">Id</label>
                 <div class="col-sm-3">
-                    <input type="text" th:readonly="${add} ? 'false' : 'true'" th:field="${veiculo.id}" class="form-control" id="inputId">
+                    <input type="text" th:readonly="false" th:field="${veiculo.id}" class="form-control" id="inputId">
                 </div>
             </div>
             <div class="mb-3 row">
