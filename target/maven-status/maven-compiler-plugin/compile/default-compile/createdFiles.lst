@@ -1,0 +1,6 @@
+tech\ada\locadoraveiculos\controller\VeiculoController.class
+tech\ada\locadoraveiculos\model\Veiculo$VeiculoBuilder.class
+tech\ada\locadoraveiculos\LocadoraVeiculosApplication.class
+tech\ada\locadoraveiculos\repository\VeiculoRepository.class
+tech\ada\locadoraveiculos\model\Veiculo.class
+tech\ada\locadoraveiculos\service\VeiculoService.class

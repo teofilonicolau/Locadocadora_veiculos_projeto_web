@@ -9,12 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tech.ada</groupId>
-	<artifactId>locadora-veiculos</artifactId>
+	<artifactId>locadora-veiculos-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>locadora-veiculos</name>
+	<name>locadora-veiculos-web</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
